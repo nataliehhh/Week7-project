@@ -21,4 +21,9 @@ app.get("/posts", async (request, response)=>{
     console.log(result.rows);
 });
 
+app.get("/posts/dropdownOptions", async (request, response)=>{
+    const dropdownOptions = await db.find({}, "origin_country");
+    response.json(dropdownOptions);
+});
+
 app.listen(PORT, ()=> console.log(`App is running on PORT ${PORT}`));
