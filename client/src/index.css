@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    background-color: #EFEBE2;
+    color: #190E02;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    margin-left: 2rem;
+}
+
+nav a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100; 
+    text-decoration: none;
+    padding: 2rem;
+    color: #e85d31;
+}
+
+.postList a {
+    font-size: 1.5rem;
+    color: #190E02;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 2;
+   
+}
+
+.postList {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.postDisplay {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    line-height: 2;
+}
+
+.postImage {
+    width: 300px;
+    padding: 1rem;
+}
+
+.postReview {
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.postInfo {
+    padding: 1rem;
+}

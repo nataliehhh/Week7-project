@@ -1,5 +1,43 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    max-width: 600px;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+input {
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    border: 1px solid #190E02;
+    border-radius: 10px;
+}
+
+select {
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    border: 1px solid #190E02;
+    border-radius: 12px;
+}
+
+.multipleInput {
+    height: 5rem;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    border: 1px solid #190E02;
+    border-radius: 12px;
+}
+
+button {
+    background-color: #190E02;
+    color: #EFEBE2;
+    border-radius: 12px;
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
 }
